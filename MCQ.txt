@@ -1,0 +1,905 @@
+Q1. What is the primary purpose of an API?
+A. To design UI
+B. To connect applications
+C. To store images
+D. To create databases
+Answer: B. To connect applications
+Explanation: APIs allow software systems to communicate.
+Q2. Which Python framework is commonly used for REST APIs?
+A. Django REST Framework
+B. NumPy
+C. Tkinter
+D. Matplotlib
+Answer: A. Django REST Framework
+Explanation: DRF is widely used for scalable APIs.
+Q3. What does REST stand for?
+A. Remote Execution System Transfer
+B. Representational State Transfer
+C. Resource State Tool
+D. Runtime State Transfer
+
+Answer: B. Representational State Transfer
+Explanation: REST is a standard web service architecture.
+Q4. Which HTTP method is used to fetch data?
+A. POST
+B. DELETE
+C. GET
+D. PATCH
+Answer: C. GET
+Explanation: GET retrieves data from the server.
+Q5. What is JSON mainly used for?
+A. Gaming
+B. Data exchange
+C. Video editing
+D. Hardware control
+Answer: B. Data exchange
+Explanation: JSON is used for structured data transfer.
+Q6. Which library is commonly used for API requests in Python?
+A. requests
+B. pygame
+C. flask-admin
+D. OpenCV
+Answer: A. requests
+Explanation: The requests library simplifies HTTP calls.
+Q7. Which status code means “Not Found”?
+A. 200
+B. 301
+C. 404
+D. 500
+Answer: C. 404
+Explanation: 404 means the requested resource is unavailable.
+Q8. What is FastAPI known for?
+A. Animation
+B. High-performance APIs
+C. Database tuning
+D. UI designing
+Answer: B. High-performance APIs
+Explanation: FastAPI is optimized for speed.
+Q9. Which database is commonly used with modern Python apps?
+A. MongoDB
+B. Paint
+C. VLC
+D. Canva
+Answer: A. MongoDB
+Explanation: MongoDB is popular for scalable applications.
+Q10. What is authentication used for?
+A. Graphics rendering
+B. Securing access
+C. File compression
+D. Image generation
+Answer: B. Securing access
+Explanation: Authentication verifies user identity.
+
+Q11. What is a chatbot?
+A. AI conversation system
+B. Database engine
+C. Compiler
+D. Graphics tool
+Answer: A. AI conversation system
+Explanation: Chatbots simulate human conversation.
+Q12. ChatGPT is based on which architecture?
+A. Blockchain
+B. Transformer
+C. SQL
+D. CNN only
+Answer: B. Transformer
+Explanation: ChatGPT uses transformer-based models.
+Q13. What is prompt engineering?
+A. Hardware repair
+B. Writing effective AI instructions
+C. Cloud hosting
+D. Database migration
+Answer: B. Writing effective AI instructions
+Explanation: Better prompts improve AI responses.
+Q14. What is Generative AI mainly used for?
+A. Creating content
+B. Installing RAM
+C. Network cabling
+D. Device repair
+Answer: A. Creating content
+Explanation: Generative AI creates text, code, and images.
+Q15. Which company developed ChatGPT?
+A. Oracle
+B. IBM
+C. OpenAI
+D. Adobe
+Answer: C. OpenAI
+Explanation: ChatGPT was developed by OpenAI.
+Q16. What does RAG stand for?
+A. Retrieval-Augmented Generation
+B. Runtime AI Gateway
+C. Rapid Access Generator
+D. Recursive Agent Group
+Answer: A. Retrieval-Augmented Generation
+Explanation: RAG combines retrieval with LLMs.
+Q17. What is an AI agent?
+A. Video editor
+B. Autonomous AI system
+C. Browser plugin
+D. Cloud storage
+Answer: B. Autonomous AI system
+Explanation: AI agents can make decisions independently.
+Q18. What is LangChain used for?
+A. Building LLM applications
+B. Designing logos
+C. Creating hardware
+D. Editing audio
+Answer: A. Building LLM applications
+Explanation: LangChain helps develop AI workflows.
+Q19. What is vector embedding used for?
+A. Semantic search
+B. Image editing
+C. Password reset
+D. Video rendering
+Answer: A. Semantic search
+Explanation: Embeddings capture meaning and similarity.
+Q20. What is the advantage of AI copilots?
+A. Slower systems
+B. Intelligent assistance
+C. Data deletion
+D. Lower productivity
+Answer: B. Intelligent assistance
+Explanation: AI copilots improve workflow productivity.
+
+Q21. What does JSON stand for?
+A. JavaScript Object Notation
+B. Java Server Oriented Network
+C. Joint Photographic Experts Group
+D. JavaScript Object Oriented Network
+Answer: A. JavaScript Object Notation
+Explanation: JSON is a text-based data format for data exchange.
+Q22. Which concept allows objects to inherit properties?
+A. Polymorphism
+B. Encapsulation
+C. Inheritance
+D. Abstraction
+Answer: C. Inheritance
+Explanation: Inheritance enables code reusability.
+Q23. What does encapsulation mean?
+A. Hiding implementation details
+B. Creating objects
+C. Changing class structure
+D. Linking database
+Answer: A. Hiding implementation details
+Explanation: Encapsulation bundles data and methods.
+Q24. What is polymorphism?
+A. Single name, multiple forms
+B. Creating objects
+C. Changing class structure
+D. Linking database
+Answer: A. Single name, multiple forms
+Explanation: Polymorphism allows flexibility in code.
+Q25. Which term represents object blueprint?
+A. Object
+B. Class
+C. Instance
+D. Method
+Answer: B. Class
+Explanation: A class is the template for objects.
+Q26. What is a method in OOP?
+A. A variable
+B. An action/function
+C. A database
+D. A hardware component
+Answer: B. An action/function
+Explanation: Methods define object behaviors.
+
+Q27. What is an object in OOP?
+A. Template blueprint
+B. A physical device
+C. variable
+D. Pure memory storage
+Answer: C. variable
+Explanation: object is variable but store non-primitive data.
+Q28. What does abstraction focus on?
+A. Implementation details
+B. Only core functionality
+C. External UI
+D. Storage mechanisms
+Answer: B. Only core functionality
+Explanation: Abstraction shows what, not how.
+Q29. Which OOP feature reduces code redundancy?
+A. Inheritance
+B. Encapsulation
+C. Polymorphism
+D. All of the above
+Answer: D. All of the above
+Explanation: All OOP features help organize code efficiently.
+
+Q30. Which OOP concept binds data and methods together?
+A. Abstraction
+B. Encapsulation
+C. Inheritance
+D. Polymorphism
+Answer: B. Encapsulation
+Explanation: Encapsulation protects data and bundles related code.
+
+Q31. What is the output of this code?
+
+class Car:
+    def __init__(self, brand):
+        self.brand = brand
+    def display(self):
+        print(self.brand)
+
+my_car = Car("Toyota")
+my_car.display()
+
+A. Car
+B. Toyota
+C. Error
+D. None
+Answer: B. Toyota
+Explanation: The constructor initializes 'brand' and display prints it.
+
+Q31. Which statement is TRUE about constructor?
+A. It executes automatically
+B. It has no return type
+C. It can be overloaded
+D. All of the above
+Answer: D. All of the above
+Explanation: Constructors are special methods that execute automatically and have no return type.
+Q32. What is the output of this code?
+
+class A: def show(self): print("A")
+class B(A): pass
+
+obj = B()
+obj.show()
+
+A. A
+B. B
+C. Error
+D. None
+Answer: A. A
+Explanation: The derived class inherits the method from the base class.
+
+Q33. Which OOP concept reduces code redundancy?
+A. Inheritance
+B. Polymorphism
+C. Encapsulation
+D. All of the above
+Answer: D. All of the above
+Explanation: All OOP features help organize code efficiently.
+
+Q34. What is automation?
+A. Manual work
+B. Task execution with minimal human effort
+C. Hardware replacement
+D. Data deletion
+Answer: B. Task execution with minimal human effort
+Explanation: Automation improves efficiency.
+Q35. Which library is popular for browser automation?
+A. Selenium
+B. TensorFlow
+C. NumPy
+D. Flask
+Answer: A. Selenium
+Explanation: Selenium automates browser tasks.
+Q36. What is cloud computing?
+A. Offline processing
+B. Internet-based computing services
+C. Local gaming
+D. Cable management
+Answer: B. Internet-based computing services
+Explanation: Cloud services provide scalable resources.
+Q37. Which cloud platform is widely used?
+A. AWS
+B. MS Paint
+C. VLC
+D. Canva
+Answer: A. AWS
+Explanation: AWS is a leading cloud provider. 
+
+Q38. What is Docker mainly used for?
+A. Animation
+B. Containerization
+C. Automation
+D. Data storage 
+Answer: B. Containerization
+Explanation: Docker packages apps into containers.
+
+Q39. What does CI/CD stand for?
+A. Continuous Integration & Continuous Deployment
+B. Centralized Internet Driver
+C. Code Injection Device
+D. Continuous Internal Database
+Answer: A. Continuous Integration & Continuous Deployment
+Explanation: CI/CD automates testing and deployment.
+
+Q40. What is unit testing?
+A. Testing small code components
+B. UI testing
+C. Database testing
+D. Server testing
+Answer: A. Testing small code components
+Explanation: Unit tests validate individual functions.
+
+Q41. What is API used for?
+A. Creating hardware
+B. Interface for software interaction
+C. Data deletion
+D. Graphics design
+Answer: B. Interface for software interaction
+Explanation: APIs allow different software components to communicate.
+
+Q42. Which library is commonly used for ML in Python?
+A. Scikit-learn
+B. Pandas
+C. TensorFlow
+D. Matplotlib
+Answer: A. Scikit-learn
+Explanation: Scikit-learn provides ML algorithms.
+
+Q43. What is an algorithm?
+A. Hardware component
+B. Step-by-step procedure
+C. User interface
+D. Database file
+Answer: B. Step-by-step procedure
+Explanation: An algorithm is a set of instructions to solve a problem.
+
+Q44. What is caching mainly used for?
+A. Improving speed
+B. Deleting memory
+C. Blocking APIs
+D. Slowing systems
+Answer: A. Improving speed
+Explanation: Caching stores frequently used data.
+
+Q45. What is two-factor authentication?
+A. Token verification
+B. Password reset
+C. Account verification
+D. Extra security verification
+Answer: D. Extra security verification
+Explanation: 2FA improves account security.
+
+Q46. What is SQL injection attack?
+A. Adding malicious code to database queries
+B. Installing malware
+C. Stealing system files
+D. Overloading server
+Answer: A. Adding malicious code to database queries
+Explanation: SQL injection exploits database vulnerabilities.
+
+Q47. What is malware?
+A. Antivirus software
+B. Malicious software
+C. Backup tool
+D. System optimizer
+Answer: B. Malicious software
+Explanation: Malware harms systems or steals data.
+
+Q48. What is phishing?
+A. Email spoofing for credential theft
+B. System scanning
+C. Data backup
+D. Network configuration
+Answer: A. Email spoofing for credential theft
+Explanation: Phishing deceives users to steal sensitive info.
+
+Q49. What is WAF mainly used for?
+A. Web application firewall
+B. Wireless access
+C. Workgroup automation
+D. Web analytics
+Answer: A. Web application firewall
+Explanation: WAF protects web apps from attacks.
+
+Q50. What is HTTP status code for "Created"?
+A. 200
+B. 404
+C. 500
+D. 201
+Answer: D. 201
+Explanation: 201 means the resource has been created successfully.
+
+Q51. What is the correct syntax for a Python function?
+A. func my_func():
+B. def my_func():
+C. function my_func():
+D. define my_func():
+Answer: B. def my_func():
+Explanation: 'def' keyword is used to define functions in Python.
+
+Q52. Which method is used to add an element to the end of a Python list?
+A. append()
+B. insert()
+C. extend()
+D. add()
+Answer: A. append()
+Explanation: append() adds an element to the end of the list.
+
+Q53. What is the output of this Python code?
+
+my_list = [1, 2, 3]
+my_list1=my_list.copy()
+my_list.append(4)
+print(my_list1)
+
+A. [1, 2, 3]
+B. [1, 2, 3, 4]
+C. [4, 1, 2, 3]
+D. Error
+Answer: A. [1, 2, 3]
+Explanation: copy() makes a shallow copy of the list.
+
+#sql Database hard lavel  qution 
+
+Q54. What is the output of this SQL query?
+
+SELECT *
+FROM employees
+WHERE salary BETWEEN 50000 AND 70000
+ORDER BY salary DESC;
+
+A. Employees with salary between 50000 and 70000 in ascending order
+B. Employees with salary between 50000 and 70000 in descending order
+C. Employees with salary greater than 50000 and less than 70000 in descending order
+D. All employees in the table
+Answer: B. Employees with salary between 50000 and 70000 in descending order
+Explanation: BETWEEN operator includes both endpoints. ORDER BY salary DESC sorts in descending order.
+
+Q55. Which of the following SQL queries correctly retrieves the department name and the number of employees in each department?
+A. 
+SELECT department_name, COUNT(*) FROM employees GROUP BY department_name;
+B. 
+SELECT department_name, COUNT(*) FROM employees;
+C. 
+SELECT department_name, COUNT(*) FROM departments GROUP BY department_name;
+D. 
+SELECT department_name, COUNT(*) FROM departments;
+Answer: A. 
+SELECT department_name, COUNT(*) FROM employees GROUP BY department_name;
+Explanation: GROUP BY clause is used to group rows that have the same values in specified columns. COUNT(*) counts the number of rows in each group.
+
+Q56. ChatGPT ka best use developer ke liye?
+
+A. Coding assistance
+B. Hardware repair
+C. Virus creation
+D. Gaming
+
+Answer: A. Coding assistance
+Explanation: ChatGPT debugging aur code generation me help karta hai.
+
+Q57. AI hallucination kya hota hai?
+
+A. Correct prediction
+B. Wrong/confident AI answer
+C. Database crash
+D. API timeout
+
+Answer: B. Wrong/confident AI answer
+Explanation: Kabhi AI incorrect information confidently generate karta hai.
+
+Q58. SQL me WHERE clause ka use?
+
+A. Filter data
+B. Delete database
+C. Create API
+D. Merge files
+
+Answer: A. Filter data
+Explanation: WHERE specific conditions ke according data select karta hai.
+
+Q59. Automation tools ka main benefit?
+
+A. More manual work
+B. Save time & effort
+C. Slow systems
+D. Delete data
+
+Answer: B. Save time & effort
+Explanation: Automation repetitive tasks fast karta hai.
+
+Q60. Developer ke liye debugging skill important kyu hai?
+
+A. Error identify aur fix karne ke liye
+B. Graphics design ke liye
+C. Typing speed ke liye
+D. Hardware repair ke liye
+
+Answer: A. Error identify aur fix karne ke liye
+Explanation: Debugging reliable software development ka important part hai. 
+
+Q61. Python me mutable data type konsa hai?
+
+A. Tuple
+B. String
+C. List
+D. Frozen Set
+
+Answer: C. List
+Explanation: List ke elements runtime me modify kiye ja sakte hain.
+
+Q62. REST API me stateless ka matlab?
+
+A. API data store nahi karti
+B. Server client session remember nahi karta
+C. API offline chalti hai
+D. Database use nahi hota
+
+Answer: B. Server client session remember nahi karta
+Explanation: Har request independent hoti hai.
+
+Q63. OOP me method overriding kab hoti hai?
+
+A. Same method child class me redefine ho
+B. Variable duplicate ho
+C. API fail ho
+D. Database connect ho
+
+Answer: A. Same method child class me redefine ho
+Explanation: Child class parent method ka behavior change kar sakti hai.
+
+Q64. SQL JOIN ka main purpose?
+
+A. Delete table
+B. Combine multiple tables data
+C. Create API
+D. Encrypt database
+
+Answer: B. Combine multiple tables data
+Explanation: JOIN related tables ka data connect karta hai.
+
+Q65. Git merge conflict kab hota hai?
+
+A. Same file multiple changes hone par
+B. Repo delete hone par
+C. Internet slow hone par
+D. Branch create karne par
+
+Answer: A. Same file multiple changes hone par
+Explanation: Git decide nahi kar pata konsa change keep karna hai.
+
+Q66. ChatGPT prompt engineering me context important kyu hai?
+
+A. AI ko accurate direction dene ke liye
+B. RAM increase karne ke liye
+C. Database connect karne ke liye
+D. UI improve karne ke liye
+
+Answer: A. AI ko accurate direction dene ke liye
+Explanation: Better context se relevant output milta hai.
+
+Q67. Async API ka main advantage?
+
+A. Blocking operations avoid karta hai
+B. Database delete karta hai
+C. UI generate karta hai
+D. Server band karta hai
+
+Answer: A. Blocking operations avoid karta hai
+Explanation: Async requests parallel processing improve karti hain.
+
+Q68. AI agent orchestration ka matlab?
+
+A. Multiple AI agents coordination
+B. API deletion
+C. SQL optimization
+D. UI designing
+
+Answer: A. Multiple AI agents coordination
+Explanation: Different AI agents milkar complex workflow solve karte hain.
+
+Q69. Python me generator ka benefit?
+
+A. Less memory usage
+B. Faster internet
+C. Auto debugging
+D. Cloud deployment
+
+Answer: A. Less memory usage
+Explanation: Generator values ko lazily produce karta hai.
+
+Q70. RAG pipeline me vector database ka role?
+
+A. Semantic search perform karna
+B. Video editing
+C. Git branching
+D. UI rendering
+
+Answer: A. Semantic search perform karna
+Explanation: Vector DB similar meaning wale data retrieve karta hai.  
+
+Q71. LangChain ka main purpose kya hai?
+
+A. LLM applications build karna
+B. Large language workflows banana
+C. AI pipelines develop karna
+D. AI-powered application orchestration
+
+Answer: D. AI-powered application orchestration
+Explanation: LangChain LLM workflows aur AI applications manage karta hai.
+
+Q72. LangGraph mainly kisliye use hota hai?
+
+A. Stateful AI workflows
+B. Multi-step AI execution
+C. Graph-based agent control
+D. AI agent state management
+
+Answer: D. AI agent state management
+Explanation: LangGraph complex stateful agent workflows handle karta hai.
+
+Q73. CrewAI ka core concept kya hai?
+
+A. Multiple AI role collaboration
+B. Autonomous AI teamwork
+C. Role-based agent coordination
+D. Multi-agent task delegation
+
+Answer: D. Multi-agent task delegation
+Explanation: CrewAI me alag agents tasks divide karke collaboratively work karte hain.
+
+Q74. RAG pipeline ka main benefit kya hai?
+
+A. External knowledge integration
+B. Context-aware AI responses
+C. Real-time information retrieval
+D. Knowledge-grounded generation
+
+Answer: D. Knowledge-grounded generation
+Explanation: RAG AI responses ko retrieved data se accurate banata hai.
+
+Q75. Agentic AI ka main characteristic kya hai?
+
+A. Autonomous decision-making
+B. Goal-driven execution
+C. Self-directed task handling
+D. Intelligent workflow autonomy
+
+Answer: D. Intelligent workflow autonomy
+Explanation: Agentic AI independently tasks plan aur execute karta hai.
+
+Q76. Chatbot memory ka purpose kya hota hai?
+
+A. Context retention
+B. Conversation continuity
+C. Session awareness
+D. Multi-turn understanding
+
+Answer: D. Multi-turn understanding
+Explanation: Memory chatbot ko previous conversation remember karne me help karti hai.
+
+Q77. Vector embeddings mainly kisliye use hote hain?
+
+A. Semantic similarity search
+B. Contextual data mapping
+C. Meaning-based retrieval
+D. Intelligent knowledge indexing
+
+Answer: C. Meaning-based retrieval
+Explanation: Embeddings meaning ke basis par related data search karte hain.
+
+Q78. Multi-agent architecture ka major advantage kya hai?
+
+A. Distributed task execution
+B. Specialized agent collaboration
+C. Parallel intelligent processing
+D. Coordinated autonomous problem-solving
+
+Answer: D. Coordinated autonomous problem-solving
+Explanation: Multiple agents milkar complex tasks efficiently solve karte hain.
+
+Q79. Prompt chaining ka matlab kya hai?
+
+A. Sequential AI instruction flow
+B. Multi-step response generation
+C. Context-linked prompting
+D. Connected LLM execution pipeline
+
+Answer: D. Connected LLM execution pipeline
+Explanation: Prompt chaining me ek output next prompt ka input banta hai.
+
+Q80. AI orchestration platform ka main role kya hota hai?
+
+A. Workflow coordination
+B. Agent communication management
+C. Tool integration handling
+D. End-to-end AI process control
+
+Answer: D. End-to-end AI process control
+Explanation: Orchestration platforms AI workflows aur agents coordinate karte hain.
+
+Q81. LangChain me “Chains” ka purpose kya hota hai?
+
+A. Sequential AI execution
+B. Linked prompt workflows
+C. Multi-step LLM processing
+D. Connected AI task pipelines
+
+Answer: D. Connected AI task pipelines
+Explain: Chains multiple AI operations ko structured flow me connect karti hain.
+
+Q82. CrewAI me “Agent Role” define karne ka main benefit?
+
+A. Specialized task execution
+B. Intelligent work distribution
+C. Focused agent responsibility
+D. Structured multi-agent collaboration
+
+Answer: D. Structured multi-agent collaboration
+Explain: Roles agents ko specific responsibilities assign karte hain.
+
+Q83. LangGraph traditional LangChain se better kab hota hai?
+
+A. Stateful workflows me
+B. Complex agent routing me
+C. Multi-step decision systems me
+D. Persistent AI execution flows me
+
+Answer: D. Persistent AI execution flows me
+Explain: LangGraph stateful aur looping workflows efficiently manage karta hai.
+
+Q84. RAG system me retrieval phase ka main kaam kya hai?
+
+A. Relevant data fetching
+B. Context-aware searching
+C. Knowledge document retrieval
+D. Semantic information extraction
+
+Answer: C. Knowledge document retrieval
+Explain: Retrieval phase relevant external documents find karta hai.
+
+Q85. AI hallucination reduce karne ke liye best approach?
+
+A. Retrieval grounding
+B. External knowledge injection
+C. Context validation
+D. Fact-supported generation
+
+Answer: D. Fact-supported generation
+Explain: Verified context AI responses ko accurate banata hai.
+
+Q86. Agentic AI planning ka main purpose?
+
+A. Goal decomposition
+B. Intelligent task sequencing
+C. Autonomous execution strategy
+D. Dynamic workflow planning
+
+Answer: C. Autonomous execution strategy
+Explain: Planning AI ko independent task execution me help karta hai.
+
+Q87. Memory-enabled chatbot ka advantage?
+
+A. Personalized conversation flow
+B. Historical context awareness
+C. Better user interaction continuity
+D. Context-driven intelligent responses
+
+Answer: D. Context-driven intelligent responses
+Explain: Memory chatbot ko previous interactions remember karne deti hai.
+
+Q88. Vector database traditional DB se different kyu hai?
+
+A. Semantic similarity storage
+B. Embedding-based retrieval
+C. Meaning-oriented search indexing
+D. High-dimensional knowledge search
+
+Answer: D. High-dimensional knowledge search
+Explain: Vector DB embeddings ke basis par semantic search karta hai.
+
+Q89. AI tool calling ka main benefit?
+
+A. External system interaction
+B. Real-world task execution
+C. Dynamic function integration
+D. Intelligent action-based responses
+
+Answer: D. Intelligent action-based responses
+Explain: Tool calling AI ko external operations perform karne deta hai.
+
+Q90. CrewAI workflow me manager agent ka role?
+
+A. Task coordination
+B. Agent monitoring
+C. Workflow supervision
+D. Intelligent execution management
+
+Answer: D. Intelligent execution management
+Explain: Manager agent overall workflow aur task delegation control karta hai.
+
+Q91. LangGraph me nodes represent kya karte hain?
+
+A. Workflow states
+B. Execution units
+C. Agent actions
+D. Processing steps
+
+Answer: D. Processing steps
+Explain: Nodes workflow ke individual execution points hote hain.
+
+Q92. Autonomous AI system ka major feature?
+
+A. Self-decision capability
+B. Independent reasoning
+C. Dynamic action execution
+D. Goal-oriented autonomy
+
+Answer: D. Goal-oriented autonomy
+Explain: Autonomous systems human intervention ke bina tasks complete karte hain.
+
+Q93. Retrieval-Augmented Generation ka biggest advantage?
+
+A. Updated external knowledge
+B. Reduced hallucination risk
+C. Context-enriched AI responses
+D. Knowledge-grounded intelligence
+
+Answer: D. Knowledge-grounded intelligence
+Explain: RAG external verified data use karta hai.
+
+Q94. Multi-agent AI architecture scalable kyu hoti hai?
+
+A. Distributed processing
+B. Specialized task delegation
+C. Parallel execution capability
+D. Modular intelligent coordination
+
+Answer: D. Modular intelligent coordination
+Explain: Independent agents easily scale aur extend kiye ja sakte hain.
+
+Q95. Prompt templates ka purpose?
+
+A. Consistent AI instructions
+B. Structured response generation
+C. Reusable prompting workflows
+D. Standardized LLM interaction
+
+Answer: D. Standardized LLM interaction
+Explain: Templates consistent prompts generate karte hain.
+
+Q96. AI workflow orchestration me retries important kyu hote hain?
+
+A. Failure recovery
+B. Stable execution handling
+C. Reliable workflow continuation
+D. Fault-tolerant AI processing
+
+Answer: D. Fault-tolerant AI processing
+Explain: Retries temporary failures ko handle karte hain.
+
+Q97. Conversational AI me context window kya hota hai?
+
+A. Temporary memory capacity
+B. Prompt processing limit
+C. Active conversation understanding range
+D. Token-based interaction boundary
+
+Answer: C. Active conversation understanding range
+Explain: Context window define karta hai AI kitna conversation remember karega.
+
+Q98. Agent memory persistence ka use?
+
+A. Long-term context storage
+B. Historical interaction recall
+C. Stateful intelligent behavior
+D. Persistent conversational continuity
+
+Answer: D. Persistent conversational continuity
+Explain: Persistent memory long conversations me context maintain karti hai.
+
+Q99. AI orchestration layer ka primary role?
+
+A. Workflow synchronization
+B. Agent communication handling
+C. Tool integration coordination
+D. Unified intelligent process management
+
+Answer: D. Unified intelligent process management
+Explain: Orchestration layer pura AI ecosystem manage karta hai.
+
+Q100. Enterprise Agentic AI ka biggest business benefit?
+
+A. Intelligent process automation
+B. Scalable operational efficiency
+C. Autonomous business workflows
+D. End-to-end smart enterprise execution
+
+Answer: D. End-to-end smart enterprise execution
+Explain: Agentic AI enterprise workflows ko intelligent aur scalable banata hai.
